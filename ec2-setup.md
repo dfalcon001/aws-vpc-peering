@@ -1,7 +1,5 @@
 # ec2 setup
 
-Add the steps you performed, actual configuration values, and links to genuine evidence screenshots. Mark any uncompleted step clearly.
-
 ## 1 Create and store your key pair
   In EC2, create an RSA key pair named ewb-lab and download the .pem file. Store it on your own laptop.
   Use it for all three instances. Never upload or paste the private key onto an EC2 instance.
