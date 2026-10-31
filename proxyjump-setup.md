@@ -1,4 +1,4 @@
-# proxyjump setup
+# ProxyJump Setup
 
 Move the key to ~/.ssh/ewb-lab.pem in WSL, macOS or Linux. Run chmod 400 ~/.ssh/ewb-lab.pem. Create or edit ~/.ssh/config with the entries below. Keep the private IPs only if they match your instances.
 
