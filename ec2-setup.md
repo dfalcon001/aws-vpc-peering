@@ -2,10 +2,10 @@
 
 Add the steps you performed, actual configuration values, and links to genuine evidence screenshots. Mark any uncompleted step clearly.
 
-1 Create and store your key pair
+##1 Create and store your key pair
   In EC2, create an RSA key pair named ewb-lab and download the .pem file. Store it on your own laptop.
   Use it for all three instances. Never upload or paste the private key onto an EC2 instance.
-2 Use a consistent instance configuration
+##2 Use a consistent instance configuration
   Select Amazon Linux 2023 and an instructor-approved small x86 instance type, such as t3.micro.
   Check the displayed price and your account credits. Keep the root disk small and enable delete-on-termination for that lab volume.
 |Instance | Network settings | Security group |
