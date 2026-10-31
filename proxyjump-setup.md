@@ -29,7 +29,7 @@ USE COMMANDS TO UBUNTU WSL TO CONFIGURE /.ssh/config
 mkdir -p ~/.ssh
 chmod 600 ~/.ssh
 chmod 400 ~/.ssh/ewb-lab.pem
-nano ~/.ssh/config -> add the above code of /~/.ssh/config
+nano ~/.ssh/config -> add the above code of ~/.ssh/config
 
 Test ssh ewb-bastion first. Use exit to return to your laptop, then run ssh ewb-app-a. Both should connect before
 peering, using VPC A's local route. Verify the destination host before accepting a first-time host key prompt.
